@@ -1,0 +1,41 @@
+
+
+.box {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+
+}
+
+.haq img {
+    width: 100%;
+    height: 500px;
+    /* z-index: 1111;  */
+}
+
+.ritu li {
+    width: 30px;
+    height: 30px;
+    border: 2px double crimson;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.ritu li.active {
+    background-color: crimson;
+}
+
+.haq h2 {
+    z-index: 9999999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-family: impact;
+    color: #FFF;
+    font-size: 100px;
+    display: table;
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
+}
